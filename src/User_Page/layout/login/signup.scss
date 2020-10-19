@@ -1,0 +1,100 @@
+.login {
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+
+  span{
+    color: white;
+    font-size: 3rem;
+  }
+
+  #div_1{
+    margin-top: 20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+
+    span{
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    a{
+      color: mediumaquamarine;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+
+  #leftSize
+  {
+    width: 10px;
+  }
+
+  #heightSize
+  {
+    height: 20px;
+  }
+
+}
+
+.input-group {
+  margin-top: 20px;
+  position: relative;
+}
+
+.input-group .input-area {
+  outline: none;
+  border: 1px solid white;
+  padding: 16px 13px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: transparent;
+  width: 260px;
+  color: white;
+}
+
+.input-group .input-area:valid + .label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 14px;
+  color: white;
+}
+
+.input-group .input-area:focus {
+  border: 1px solid mediumaquamarine;
+  color: white;
+}
+
+.input-group .label {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 13px;
+}
+
+.input-group .input-area:focus + .label {
+  top: -8px;
+  padding: 0 3px;
+  font-size: 14px;
+  color: white;
+}
+
+.textFieldError{
+  margin-top: 5px;
+  a{
+    color: lightcoral;
+    font-size: 0.9rem;
+  }
+}
+
+.btn_text{
+  color: mediumaquamarine;
+  font-size: 1.2rem;
+}
+
+.checkBoxLabel{
+  color: brown;
+  font-size: 0.8rem;
+}

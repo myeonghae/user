@@ -1,0 +1,34 @@
+$ColorDark: #040404;
+$ColorLight: #131313;
+$ColorLighter: #282828;
+$ColorGray: #090909;
+
+.App {
+  background: $ColorLight;
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+}
+
+.outerWrep{
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.bottomLayout{
+  background: $ColorLighter;
+  position: relative;
+  display: flex;
+  height: 59px;
+  border-top: 1px solid $ColorDark;
+}
+
+.main{
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-track-color: #040404;
+}
+
+
+
